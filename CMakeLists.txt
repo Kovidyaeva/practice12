@@ -14,4 +14,4 @@ enable_testing()
 add_executable(unit_tests tests/tests.cpp src/m_utils.cpp)
 
 # Регистрируем тест в CTest
-add_test(NAME MathUnitTests COMMAND unit_tests)Ы
+add_test(NAME MathUnitTests COMMAND unit_tests)
